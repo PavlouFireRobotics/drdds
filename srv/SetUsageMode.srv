@@ -1,0 +1,10 @@
+int32 REGULAR=0
+int32 NAVIGATION=1
+int32 ASSIST=2
+int32 mode
+---
+bool success
+# 0 when confirmed by basic status; -1 on invalid input, timeout, or local failure.
+# Command 5 acknowledgements and robot error codes are not consumed.
+int32 error_code
+string error_message
